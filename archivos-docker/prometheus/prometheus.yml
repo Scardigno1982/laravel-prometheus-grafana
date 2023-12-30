@@ -1,0 +1,10 @@
+global:
+  scrape_interval: 15s
+
+scrape_configs:
+  - job_name: 'laravel'
+    static_configs:
+      - targets: ['192.168.0.22:80']  # Reemplaza con el puerto donde tu aplicación Laravel está sirviendo las métricas
+        labels:
+          alias: 'laravel-app'
+    metrics_path: /prometheus  # R
