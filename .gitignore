@@ -1,0 +1,45 @@
+# Ignore vendor directory
+/vendor
+
+# Ignore the .env file
+.env
+
+# Ignore logs and other generated files
+/storage/*.log
+/storage/app/*.log
+/storage/framework/*.log
+/storage/framework/testing
+/storage/framework/sessions
+/storage/framework/cache
+/storage/framework/views
+
+# Ignore user-specific files
+Homestead.yaml
+Homestead.json
+
+# Ignore IDE files
+.idea
+*.iml
+*.ide
+
+# Ignore compiled files
+/public/css/*.css
+/public/js/*.js
+/public/mix-manifest.json
+/public/web.php
+
+# Ignore node modules
+/node_modules
+
+# Ignore database
+/database/*.sqlite
+/database/*.sqlite3
+/database/*.log
+/database/*.sql
+
+# Ignore environment files
+/.env.*
+!.env.example
+
+# Ignore local development files
+Homestead.json
