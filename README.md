@@ -1,11 +1,3 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
-
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
 
 ## About Laravel
 
@@ -64,3 +56,16 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+=======
+# laravel-prometheus-grafana
+Implementación Exitosa de Prometheus y Grafana en Laravel
+
+En este artículo, comparto mi reciente experiencia en la implementación exitosa de Prometheus y Grafana en un proyecto Laravel. A través de Docker Compose, orquesté el despliegue de estas herramientas en una máquina virtual, mientras mi aplicación Laravel operaba sin problemas en Xampp.
+
+Utilicé la poderosa biblioteca laravel-prometheus de Spatie para agregar métricas valiosas, monitorizando la salud de los enlaces asignados y detectando aquellos caídos. Con un ejemplo práctico, exploramos la visualización en Grafana de datos en tiempo real, desde el rendimiento del servidor hasta el monitoreo de servicios y microservicios.
+
+Estas herramientas revelan su potencial en diversas áreas, desde la optimización del rendimiento de la aplicación hasta la identificación proactiva de problemas, brindando un enfoque integral al monitoreo en entornos Laravel.
+
+¡Explora el código y las configuraciones utilizadas para llevar a cabo esta implementación y mejora la monitorización de tu aplicación Laravel!
+
+
